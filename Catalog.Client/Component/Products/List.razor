@@ -1,0 +1,41 @@
+﻿@*@using System.Net.Http.Json
+
+
+
+@inject HttpClient httpClient*@
+
+<MudTable ServerData="GetProductData" Dense="true" FixedHeader="true" FixedFooter="true" MultiSelection="true" Hover="true" @ref="_table" T="Product">
+<ToolBarContent>
+        <MudText Typo="Typo.h6">Periodic Elements</MudText>
+        <MudSpacer />
+        <MudTextField T="string" ValueChanged="OnSearch" Placeholder="Search" Adornment="Adornment.Start"
+                      AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+    </ToolBarContent>
+
+    <HeaderContent>
+        <MudTh><MudTableSortLabel SortLabel="Id" T="Product">Id</MudTableSortLabel></MudTh>
+        <MudTh><MudTableSortLabel SortLabel="Name" T="Product">Name</MudTableSortLabel></MudTh>
+        <MudTh><MudTableSortLabel SortLabel="Price" T="Product">Price</MudTableSortLabel></MudTh>
+        <MudTh><MudTableSortLabel  T="Product">description</MudTableSortLabel></MudTh>
+          <MudTh><MudTableSortLabel  T="Product">Image</MudTableSortLabel></MudTh>
+    </HeaderContent>
+
+ <RowTemplate>
+        <MudTd DataLabel="Id">@context.Id</MudTd>
+        <MudTd DataLabel="Name">@context.Name</MudTd>
+        <MudTd DataLabel="Price">@context.Price</MudTd>
+        <MudTd DataLabel="description">@context.Description</MudTd>
+        <MudTd DataLabel="Images ">Images</MudTd>
+    </RowTemplate>
+
+    <NoRecordsContent>
+        <MudText>No matching records found</MudText>
+    </NoRecordsContent>
+    <LoadingContent>
+        <MudText>Loading...</MudText>
+    </LoadingContent>
+    <PagerContent>
+        <MudTablePager PageSizeOptions="new int[]{10,20,30}" RowsPerPageString="Product per page" />
+    </PagerContent>
+
+</MudTable>

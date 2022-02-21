@@ -1,0 +1,34 @@
+﻿@inherits LayoutComponentBase
+
+
+
+
+<MudThemeProvider IsDarkMode="themeMode" />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout dir="rtl">
+ 
+    <AppBar OnSidebarToggled="ToggleSidebar" OnThemeToggled="ToggleTheme" />
+
+     <NavMenu SidebarOpen="_sidebarOpen"  />
+    <MudMainContent  Class="pt-16 px-16">
+        @Body
+    </MudMainContent>
+</MudLayout>
+
+@code {
+    private bool _sidebarOpen = false;
+    private bool themeMode = false;
+    
+    private  void ToggleSidebar()
+    {
+        
+        _sidebarOpen = !_sidebarOpen;
+    }
+  
+    private  void ToggleTheme()
+    {
+        themeMode = !themeMode;
+    }
+}

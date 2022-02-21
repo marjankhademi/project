@@ -1,0 +1,54 @@
+﻿
+<MudGrid>
+
+    <MudItem  xs="6" >
+
+            <MudPaper style="cursor:pointer; background-color:#F5F5F5" Elevation="15"  @onclick="GoToPage"    Height="300px" Class="   pt-4 mt-8 d-flex align-center justify-center mud-width-full py-8 rounded-lg ">
+      
+                     <MudIconButton Icon="@Icons.Material.Filled.StarRate" Color="Color.Dark" Class="rounded-0" />
+                    <MudText Typo="Typo.h5">  مدیریت ارتباط با مشتریان(crm)</MudText>
+            </MudPaper>
+    </MudItem>
+
+    <MudItem xs="6">
+
+            <MudPaper style="cursor:pointer;background-color:#F5F5F5" Elevation="15"  @onclick="GoToPageDM"    Height="300px" Class="   pt-4 mt-8 d-flex align-center justify-center mud-width-full py-8 rounded-lg pa-4 mr-4">
+      
+                     <MudIconButton Icon="@Icons.Material.Filled.StarRate" Color="Color.Dark" Class="rounded-0" />
+                    <MudText Typo="Typo.h5"> انبار (IM) </MudText>
+            </MudPaper>
+
+    </MudItem>
+
+    <MudItem xs="6">
+
+           <MudPaper style="cursor:pointer;background-color:#F5F5F5" Elevation="15"  @onclick="GoToPageCS"    Height="300px" Class="   pt-4 mt-8 d-flex align-center justify-center mud-width-full py-8 rounded-lg ">
+      
+                     <MudIconButton Icon="@Icons.Material.Filled.StarRate" Color="Color.Dark" Class="rounded-0" />
+                    <MudText Typo="Typo.h5">     خدمات پس از فروش (cs) </MudText>
+            </MudPaper>
+
+    </MudItem>
+
+    <MudItem xs="6">
+
+           <MudPaper style="cursor:pointer;background-color:#F5F5F5" Elevation="15"  @onclick="GoToPageManagement"    Height="300px" Class="   pt-4 mt-8 d-flex align-center justify-center mud-width-full py-8 rounded-lg  pa-4 mr-4">
+      
+                     <MudIconButton Icon="@Icons.Material.Filled.StarRate" Color="Color.Dark" Class="rounded-0" />
+                     <MudText Typo="Typo.h5">  داشبورد مدیریتی </MudText>
+                                                            
+            </MudPaper>
+
+     </MudItem>
+
+</MudGrid>
+
+@code{
+    @inject NavigationManager NavManager
+    public void GoToPage() =>  NavManager.NavigateTo($"https://localhost:4300/CRM", forceLoad: true);
+    public void GoToPageDM() =>  NavManager.NavigateTo($"https://localhost:4300/DM", forceLoad: true);
+    public void GoToPageCS() =>  NavManager.NavigateTo($"https://localhost:4300/CS", forceLoad: true);
+    public void GoToPageManagement() =>  NavManager.NavigateTo($"https://localhost:4300/Management", forceLoad: true);
+}
+
+

@@ -1,0 +1,103 @@
+﻿
+@page "/overview"
+
+<h3 class="c1">OverView</h3>
+<p>@_text</p>
+<style>
+    .c1{
+        color:red;
+    }
+</style>
+
+<input value="@_text" /> @*فقط خود همون باکس تغییر میکنه*@
+
+<input @bind-value="_text" /> @*همه باکس ها تغییر میکنن*@
+<input value="@_text"  onchange="@Change"/>
+<input value="@_text"  oninput="@Input"/>
+@if (IsValid)
+{
+    <p>is valid</p>
+}else{
+     <p>is invalid</p>
+}
+<p class="@(count>5?"c1":"c2")">sample text</p>
+<ol>
+    @foreach(var item in texts)
+    {
+        <li>
+        @item
+        </li>
+    }
+</ol>
+<ul>
+    @foreach(var item in texts)
+    {
+        <li>
+        @item
+        </li>
+    }
+</ul>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                id
+            </th>
+            <th>
+                name
+            </th>
+             <th>
+                price
+            </th>
+             <th>
+                description
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in products)
+        {
+            <tr>
+                <th>@item.id</th>
+                <th>@item.Name</th>
+                <th>@item.price</th>
+                <th>@item.discription</th>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<Sample1 Title="test"  OnTitleChange="TitleChangeHandler"></Sample1>
+
+
+@code {
+    //c# zone
+    private string _text = "hellow word";
+    private bool IsValid = false;
+    private int count = 4;
+    private String[] texts = new[] { "Item1", "Item2" };
+    private IEnumerable<Product> products = new List<Product>
+
+        {
+            new Product
+            {
+                id=1,
+               Name ="p1",
+               price=200,
+               discription="asfsf"
+            }
+          
+        };
+    private void Change(ChangeEventArgs args)
+    {
+        _text = args?.Value?.ToString()!;
+    }
+    private void Input(ChangeEventArgs args)
+    {
+        _text = args?.Value?.ToString()!;
+    }
+    private void TitleChangeHandler(TitleChangeEventArgs args)
+  {
+     _text = args.Title;
+   }
+}

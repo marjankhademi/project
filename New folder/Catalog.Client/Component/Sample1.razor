@@ -1,0 +1,14 @@
+﻿<h3>Sample1</h3>
+<p>@Title</p>
+<button @onclick="changeTitle">click change title</button>
+@code {
+    [Parameter]
+    public string? Title { get; set; }
+    private async void changeTitle()
+    {
+        Title = "new title";
+      await OnTitleChange.InvokeAsync(new TitleChangeEventArgs(Title));
+    }
+   [Parameter]
+   public EventCallback<TitleChangeEventArgs> OnTitleChange{ get; set; }
+}

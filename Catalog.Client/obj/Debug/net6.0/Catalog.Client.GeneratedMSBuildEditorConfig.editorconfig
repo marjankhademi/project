@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = Catalog.Client
+build_property.RootNamespace = Catalog.Client
+build_property.ProjectDir = C:\Session10\Catalog.Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Session10\Catalog.Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Session10/Catalog.Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Session10/Catalog.Client/Component/Chart/DashbordChart.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XENoYXJ0XERhc2hib3JkQ2hhcnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Session10/Catalog.Client/Component/Products/List.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XFByb2R1Y3RzXExpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Session10/Catalog.Client/Pages/CRM.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JNLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Session10/Catalog.Client/Pages/CS.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Session10/Catalog.Client/Pages/DM.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRE0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Session10/Catalog.Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Session10/Catalog.Client/Pages/Management.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlbWVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Session10/Catalog.Client/Pages/Product.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Session10/Catalog.Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Session10/Catalog.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Session10/Catalog.Client/Component/Home/Segmentation.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XEhvbWVcU2VnbWVudGF0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-36i5owhkn9
+
+[C:/Session10/Catalog.Client/Shared/AppBar.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFwcEJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-4gqc2flpbk
+
+[C:/Session10/Catalog.Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-4vfavw9u6j
+
+[C:/Session10/Catalog.Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-komqv94ijb
