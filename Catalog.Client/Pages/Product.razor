@@ -1,8 +1,35 @@
 ﻿@page "/product"
 
-<h3>Product</h3>
-<Catalog.Client.Component.Products.List/>
+<MudButtonGroup Class="mt-2" Color="Color.Default" Variant="Variant.Outlined">
+
+    <MudIconButton   Icon="@Icons.Material.Rounded.Add" Color="Color.Primary" Title="Add New Product" />
+     <MudIconButton   Icon="@Icons.Material.Rounded.Edit" Disabled="diableEdit" Color="Color.Warning" Title="Edit Product" />
+      <MudIconButton   Icon="@Icons.Material.Rounded.Delete" Disabled="diableDelet" Color="Color.Error" Title="Delete Product" />
+</MudButtonGroup>
+<Catalog.Client.Component.Products.List OnSelectedProductChanged="OnSelectedProuductsChangedHandler"/>
 
 @code {
+    private bool diableEdit = true;
+    private bool diableDelet = true;
+    private int[] selectIds = new int[0];
+    private void OnSelectedProuductsChangedHandler(SelectedProductEventArgs args)
+    {
+        selectIds = args.selectedItemIds;
 
+        if (selectIds.Length == 0)
+        {
+            diableEdit = true;
+            diableDelet = true;
+        }
+        if(selectIds.Length == 1)
+        {
+            diableEdit = false;
+            diableDelet = false;
+        }
+        else
+        {
+            diableEdit = true;
+            diableDelet = false;
+        }
+    }
 }

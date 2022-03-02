@@ -80,7 +80,17 @@
       "ProjectGuid": "219b8c17-1efe-4292-982a-a42808c01471",
       "DisplayName": "Catalog.API",
       "ColorIndex": 14
+    },
+    "98ee3ddb-428b-4414-a901-d678d8ebd9c4": {
+      "ProjectGuid": "98ee3ddb-428b-4414-a901-d678d8ebd9c4",
+      "DisplayName": "Catalog.API",
+      "ColorIndex": 15
+    },
+    "c949172b-9b97-417c-8db5-c7cfae176f7b": {
+      "ProjectGuid": "c949172b-9b97-417c-8db5-c7cfae176f7b",
+      "DisplayName": "Catalog.API",
+      "ColorIndex": 0
     }
   },
-  "NextColorIndex": 15
+  "NextColorIndex": 1
 }

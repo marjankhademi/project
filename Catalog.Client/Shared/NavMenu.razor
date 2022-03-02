@@ -8,18 +8,23 @@
     
 
 
-       @if( MyNavigationManager.Uri == url )
+       @if( MyNavigationManager.Uri == url  ||  MyNavigationManager.Uri == urlCrmCustomer)
          {
               Console.WriteLine("My debug output.");
                <MudNavMenu  >
                       <MudNavLink Href="/" Match="NavLinkMatch.All"  Icon="@Icons.Filled.Home"> صفحه اصلی</MudNavLink>
                       <MudNavLink Href="/Information"  Icon="@Icons.Filled.Info"  Match="NavLinkMatch.Prefix"> اطلاعات پایه </MudNavLink>
-                      <MudNavLink Href="/Customer"  Icon="@Icons.Filled.People"  Match="NavLinkMatch.Prefix"> مشتریان /اشخاص  </MudNavLink>
+                      <MudNavLink Href="/CrmCustomer"  Icon="@Icons.Filled.People"  Match="NavLinkMatch.Prefix"> مشتریان /اشخاص  </MudNavLink>
                       <MudNavLink Href="/CardBoard" Icon="@Icons.Filled.Pages"  Match="NavLinkMatch.Prefix"> کارتابل  </MudNavLink>
                       <MudNavLink Href="/Message" Icon="@Icons.Filled.Message"  Match="NavLinkMatch.Prefix"> ارسال پیام  </MudNavLink>
                        <MudNavLink Href="/Setting" Icon="@Icons.Filled.Settings"  Match="NavLinkMatch.Prefix"> تنظیمات   </MudNavLink>
                 </MudNavMenu>
-         }else if(MyNavigationManager.Uri == urlDM){
+
+              
+
+        }
+
+         else if(MyNavigationManager.Uri == urlDM){
 
                  <MudNavMenu  >
                   <MudNavLink Href="/" Match="NavLinkMatch.All"  Icon="@Icons.Filled.Home">test</MudNavLink>
@@ -43,6 +48,8 @@
                 </MudNavMenu>
 
         }
+       
+       
     else{
          Console.WriteLine("My debug output 22222222.");
            Console.WriteLine(MyNavigationManager.Uri);
@@ -73,6 +80,7 @@
     String urlDM = "https://localhost:4300/DM";
     String urlCS = "https://localhost:4300/CS";
     String urlManagement = "https://localhost:4300/Management";
+    String urlCrmCustomer = "https://localhost:4300/CrmCustomer";
 }
 
 

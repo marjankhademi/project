@@ -4,9 +4,10 @@
 
 @inject HttpClient httpClient*@
 
-<MudTable ServerData="GetProductData" Dense="true" FixedHeader="true" FixedFooter="true" MultiSelection="true" Hover="true" @ref="_table" T="Product">
+<MudTable ServerData="GetProductData" Dense="true" FixedHeader="true" FixedFooter="true"
+MultiSelection="true" SelectedItemsChanged="OnSelectedItemChanged"  Hover="true" @ref="_table" T="Product">
 <ToolBarContent>
-        <MudText Typo="Typo.h6">Periodic Elements</MudText>
+       @* <MudText Typo="Typo.h6">Periodic Elements</MudText>*@
         <MudSpacer />
         <MudTextField T="string" ValueChanged="OnSearch" Placeholder="Search" Adornment="Adornment.Start"
                       AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
@@ -16,8 +17,8 @@
         <MudTh><MudTableSortLabel SortLabel="Id" T="Product">Id</MudTableSortLabel></MudTh>
         <MudTh><MudTableSortLabel SortLabel="Name" T="Product">Name</MudTableSortLabel></MudTh>
         <MudTh><MudTableSortLabel SortLabel="Price" T="Product">Price</MudTableSortLabel></MudTh>
-        <MudTh><MudTableSortLabel  T="Product">description</MudTableSortLabel></MudTh>
-          <MudTh><MudTableSortLabel  T="Product">Image</MudTableSortLabel></MudTh>
+        <MudTh>description</MudTh>
+          <MudTh>Image</MudTh>
     </HeaderContent>
 
  <RowTemplate>
@@ -25,7 +26,9 @@
         <MudTd DataLabel="Name">@context.Name</MudTd>
         <MudTd DataLabel="Price">@context.Price</MudTd>
         <MudTd DataLabel="description">@context.Description</MudTd>
-        <MudTd DataLabel="Images ">Images</MudTd>
+        <MudTd DataLabel="Images ">
+            <MudIcon Icon="@Icons.Material.Rounded.PhotoLibrary" Color="Color.Info" Size="Size.Medium"/>
+          </MudTd>
     </RowTemplate>
 
     <NoRecordsContent>

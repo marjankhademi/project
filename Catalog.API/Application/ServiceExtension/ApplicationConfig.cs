@@ -20,6 +20,7 @@ namespace Catalog.API.Application.ServiceExtension
             services
                     .AddEndpointsApiExplorer()
                     .AddSwaggerGen()
+                    .AddAppCors()
                     .AddAutoMapper(Assembly.GetExecutingAssembly())
                     .AddPersistance(configuration)
                     .AddRepository();
@@ -56,5 +57,22 @@ namespace Catalog.API.Application.ServiceExtension
             return services;
 
         }
+
+        private static IServiceCollection AddAppCors(this IServiceCollection services)
+        {
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                {
+                    //builder.WithOrigins("d1").WithHeaders().WithMethods("Get", "POST");
+                    builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().WithExposedHeaders("X-TotalCount");
+                });
+                    
+            });
+            return services;
+
+        }
+
+
     }
 }

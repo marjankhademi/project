@@ -855,3 +855,11 @@ C:\Session10\Catalog.Client\bin\Debug\net6.0\BouncyCastle.Crypto.dll
 C:\Session10\Catalog.Client\bin\Debug\net6.0\itextsharp.dll
 C:\Session10\Catalog.Client\bin\Debug\net6.0\itextsharp.xmlworker.dll
 C:\Session10\Catalog.Client\obj\Debug\net6.0\scopedcss\Component\Home\Segmentation.razor.rz.scp.css
+C:\Session10\Catalog.Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.WebUtilities.dll
+C:\Session10\Catalog.Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Net.Http.Headers.dll
+C:\Session10\Catalog.Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Net.Http.Headers.dll.gz
+C:\Session10\Catalog.Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.WebUtilities.dll.gz
+C:\Session10\Catalog.Client\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Session10\Catalog.Client\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
+C:\Session10\Catalog.Client\obj\Debug\net6.0\build-gz\zXFfWqnC.gz
+C:\Session10\Catalog.Client\obj\Debug\net6.0\build-gz\ZJX9EfBE.gz

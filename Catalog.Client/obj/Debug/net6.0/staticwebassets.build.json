@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "awuKY42P+DI0u/HayhUQB9jUJMb3mKRzt4+yWFhqd9w=",
+  "Hash": "K9DaX9QoW4fctkQK7j3NjBSp2PXYPrxP8kMDQANcJAk=",
   "Source": "Catalog.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -153,6 +153,23 @@
       "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\6.0.1\\runtimes\\browser-wasm\\native\\dotnet.wasm"
     },
     {
+      "Identity": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
+      "SourceId": "Catalog.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt.dat",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "native",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\6.0.1\\runtimes\\browser-wasm\\native\\icudt.dat"
+    },
+    {
       "Identity": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "Catalog.Client",
       "SourceType": "Computed",
@@ -202,23 +219,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\6.0.1\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
-    },
-    {
-      "Identity": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
-      "SourceId": "Catalog.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt.dat",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "native",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\6.0.1\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
       "Identity": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\itextsharp.dll",
@@ -355,6 +355,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.1\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
+      "Identity": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.WebUtilities.dll",
+      "SourceId": "Catalog.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.WebUtilities.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\lib\\netstandard2.0\\Microsoft.AspNetCore.WebUtilities.dll"
     },
     {
       "Identity": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -644,6 +661,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.1\\lib\\net6.0\\Microsoft.JSInterop.WebAssembly.dll"
+    },
+    {
+      "Identity": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Net.Http.Headers.dll",
+      "SourceId": "Catalog.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Net.Http.Headers.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\lib\\netstandard2.0\\Microsoft.Net.Http.Headers.dll"
     },
     {
       "Identity": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.VisualBasic.Core.dll",
@@ -7055,6 +7089,23 @@
       "OriginalItemSpec": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Compression.ZipFile.dll"
     },
     {
+      "Identity": "C:\\Session10\\Catalog.Client\\obj\\Debug\\net6.0\\build-gz\\ZJX9EfBE.gz",
+      "SourceId": "Catalog.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Net.Http.Headers.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Net.Http.Headers.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Net.Http.Headers.dll"
+    },
+    {
       "Identity": "C:\\Session10\\Catalog.Client\\obj\\Debug\\net6.0\\build-gz\\Zm0I0Mhn.gz",
       "SourceId": "Catalog.Client",
       "SourceType": "Computed",
@@ -7106,6 +7157,23 @@
       "OriginalItemSpec": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Win32.Registry.dll"
     },
     {
+      "Identity": "C:\\Session10\\Catalog.Client\\obj\\Debug\\net6.0\\build-gz\\zXFfWqnC.gz",
+      "SourceId": "Catalog.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.WebUtilities.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.WebUtilities.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.WebUtilities.dll"
+    },
+    {
       "Identity": "C:\\Session10\\Catalog.Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Catalog.Client.styles.css",
       "SourceId": "Catalog.Client",
       "SourceType": "Computed",
@@ -7140,40 +7208,6 @@
       "OriginalItemSpec": "C:\\Session10\\Catalog.Client\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Catalog.Client.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Session10\\Catalog.Client\\obj\\Debug\\net6.0\\service-worker-assets.js",
-      "SourceId": "Catalog.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "service-worker-assets.js",
-      "AssetKind": "Publish",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorServiceWorker",
-      "AssetTraitValue": "ServiceWorkerManifest",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "obj\\Debug\\net6.0\\service-worker-assets.js"
-    },
-    {
-      "Identity": "C:\\Session10\\Catalog.Client\\obj\\Debug\\net6.0\\service-worker-assets.js.build",
-      "SourceId": "Catalog.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "service-worker-assets.js",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorServiceWorker",
-      "AssetTraitValue": "ServiceWorkerManifest",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "obj\\Debug\\net6.0\\service-worker-assets.js.build"
-    },
-    {
       "Identity": "C:\\Session10\\Catalog.Client\\obj\\Debug\\net6.0\\service-worker\\service-worker.js",
       "SourceId": "Catalog.Client",
       "SourceType": "Computed",
@@ -7206,6 +7240,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\service-worker.published.js"
+    },
+    {
+      "Identity": "C:\\Session10\\Catalog.Client\\obj\\Debug\\net6.0\\service-worker-assets.js",
+      "SourceId": "Catalog.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "service-worker-assets.js",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorServiceWorker",
+      "AssetTraitValue": "ServiceWorkerManifest",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "obj\\Debug\\net6.0\\service-worker-assets.js"
+    },
+    {
+      "Identity": "C:\\Session10\\Catalog.Client\\obj\\Debug\\net6.0\\service-worker-assets.js.build",
+      "SourceId": "Catalog.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Session10\\Catalog.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "service-worker-assets.js",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorServiceWorker",
+      "AssetTraitValue": "ServiceWorkerManifest",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "obj\\Debug\\net6.0\\service-worker-assets.js.build"
     },
     {
       "Identity": "C:\\Session10\\Catalog.Client\\wwwroot\\assets\\3-1-1-3.jpg",
@@ -7274,23 +7342,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Session10\\Catalog.Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "Catalog.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Session10\\Catalog.Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Session10\\Catalog.Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
@@ -7393,6 +7444,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "C:\\Session10\\Catalog.Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "Catalog.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Session10\\Catalog.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Session10\\Catalog.Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
@@ -9044,6 +9112,23 @@
       "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\scripts\\svgbase-6e1741.min.js"
     },
     {
+      "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\scripts\\syncfusion-blazor.min.js",
+      "SourceId": "Syncfusion.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor",
+      "RelativePath": "scripts/syncfusion-blazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\scripts\\syncfusion-blazor.min.js"
+    },
+    {
       "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\scripts\\syncfusion-blazor-6e1741.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
@@ -9076,23 +9161,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\scripts\\syncfusion-blazor-extended-6e1741.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\scripts\\syncfusion-blazor.min.js",
-      "SourceId": "Syncfusion.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\",
-      "BasePath": "_content/Syncfusion.Blazor",
-      "RelativePath": "scripts/syncfusion-blazor.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\scripts\\syncfusion-blazor.min.js"
     },
     {
       "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\scripts\\textbox-6e1741.min.js",
@@ -9146,23 +9214,6 @@
       "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\scripts\\tooltip-6e1741.min.js"
     },
     {
-      "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\bootstrap-dark.css",
-      "SourceId": "Syncfusion.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\",
-      "BasePath": "_content/Syncfusion.Blazor",
-      "RelativePath": "styles/bootstrap-dark.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\bootstrap-dark.css"
-    },
-    {
       "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\bootstrap.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
@@ -9197,23 +9248,6 @@
       "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\bootstrap4.css"
     },
     {
-      "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\bootstrap5-dark.css",
-      "SourceId": "Syncfusion.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\",
-      "BasePath": "_content/Syncfusion.Blazor",
-      "RelativePath": "styles/bootstrap5-dark.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\bootstrap5-dark.css"
-    },
-    {
       "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\bootstrap5.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
@@ -9231,12 +9265,12 @@
       "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\bootstrap5.css"
     },
     {
-      "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\fabric-dark.css",
+      "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\bootstrap5-dark.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
-      "RelativePath": "styles/fabric-dark.css",
+      "RelativePath": "styles/bootstrap5-dark.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -9245,7 +9279,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\fabric-dark.css"
+      "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\bootstrap5-dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\bootstrap-dark.css",
+      "SourceId": "Syncfusion.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor",
+      "RelativePath": "styles/bootstrap-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\bootstrap-dark.css"
     },
     {
       "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\fabric.css",
@@ -9265,6 +9316,23 @@
       "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\fabric.css"
     },
     {
+      "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\fabric-dark.css",
+      "SourceId": "Syncfusion.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor",
+      "RelativePath": "styles/fabric-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\fabric-dark.css"
+    },
+    {
       "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\highcontrast.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
@@ -9280,23 +9348,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\highcontrast.css"
-    },
-    {
-      "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\material-dark.css",
-      "SourceId": "Syncfusion.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\",
-      "BasePath": "_content/Syncfusion.Blazor",
-      "RelativePath": "styles/material-dark.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\material-dark.css"
     },
     {
       "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\material.css",
@@ -9316,12 +9367,12 @@
       "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\material.css"
     },
     {
-      "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\tailwind-dark.css",
+      "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\material-dark.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
-      "RelativePath": "styles/tailwind-dark.css",
+      "RelativePath": "styles/material-dark.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -9330,7 +9381,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\tailwind-dark.css"
+      "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\material-dark.css"
     },
     {
       "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\tailwind.css",
@@ -9348,6 +9399,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\tailwind.css"
+    },
+    {
+      "Identity": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\tailwind-dark.css",
+      "SourceId": "Syncfusion.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor",
+      "RelativePath": "styles/tailwind-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\vakili.s\\.nuget\\packages\\syncfusion.blazor\\19.4.0.48\\staticwebassets\\styles\\tailwind-dark.css"
     }
   ]
 }

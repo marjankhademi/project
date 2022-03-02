@@ -12,7 +12,7 @@
 
         public int PageSize { get; set; }
         public int PageIndex { get; set; }
-        public string? SearchText { get; set; }
+        public string SearchText { get; set; }
         public string? sort { get; set; }
     }
 

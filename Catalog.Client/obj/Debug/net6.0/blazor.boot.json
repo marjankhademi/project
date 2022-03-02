@@ -16,6 +16,7 @@
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-aq+IFhf0HZZKVz6P\/GhuaY0UvXsguM0h5hlYrzAfugk=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-zARafz0vNUQ9qVFCoQO3oQSP+VMitM2+PZs+2OkxMgE=",
       "Microsoft.AspNetCore.Metadata.dll": "sha256-hXAd66KKDdPFPpv7aqk5iax9UhTcBUufrs8eHMuWft8=",
+      "Microsoft.AspNetCore.WebUtilities.dll": "sha256-D5akJeBd7NNITuzAXxlX7zl2jfsc4uTKyeEKwwNhqoo=",
       "Microsoft.Extensions.Configuration.dll": "sha256-c8yYhfrOBLEnOBglLTu9peXSbJDwFpuT4UQiXSv28Og=",
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-5Otet+KKVUjNkE\/hqcNWmt75H1K2VNuKPFagpRd6Ces=",
       "Microsoft.Extensions.Configuration.Binder.dll": "sha256-wNKhG3Ovx8jqxbscz2AALlsTLfI6GL2dyDhe63mSsoM=",
@@ -32,6 +33,7 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-jOmoWSfsdQexH\/6QCA56gR1RMEqeix2iDDUBWbpAOQI=",
       "Microsoft.JSInterop.dll": "sha256-U4TlhQzx2DEFb2LgmELxAvWalkXk5Dx\/HsVDyQH8ubA=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-11MM537VpREUoEMIiXr2jsO5eqHCkixj9Zi1I4hLPOw=",
+      "Microsoft.Net.Http.Headers.dll": "sha256-P66ftDrXwc6ayND8uYzIk0CPQy1GjNZAPHx9RMhi3V4=",
       "MudBlazor.dll": "sha256-wp5CZehEBcvlUljpUS89jl7QJdS0Px4hNgmUp9MvCUs=",
       "Newtonsoft.Json.dll": "sha256-mRd6TL4DYldo1ko9czkjEDcoiPdMPrJxz3dekwV6OOY=",
       "Syncfusion.Blazor.dll": "sha256-zqdrlQYJeCRnIyaMCHmBmWa8WIyuUt2g4Ri+fik7frM=",
@@ -205,13 +207,13 @@
       "mscorlib.dll": "sha256-D\/B7fx+JRbK7Nl8yWAODxeHUHlLbvsWdDAEes5MDIyw=",
       "netstandard.dll": "sha256-1nMAQ0QEpq5opAgJ9ulKwzJ99J7j6FOhdPcTaCZTzzw=",
       "System.Private.CoreLib.dll": "sha256-9T5MVQHJaduOMTxFnxLK8+8kY2JFN\/5SyO73e1eZlsU=",
-      "Catalog.Client.dll": "sha256-ycKphDwLGbbUOeHprf8lOb\/Vb7PWF\/y30wHBKw9BLsg="
+      "Catalog.Client.dll": "sha256-pERNVqJHB2a\/5T6ROt0uxIV\/wEVr4bEbBvlCrQXiS0Q="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Catalog.Client.pdb": "sha256-HH0EveblM1\/j3e3wU9VcGFp5RzwJF+n\/L17FdONNjC4="
+      "Catalog.Client.pdb": "sha256-+otr2DrorDwHJsgrBTDuAKC32cI79+Sep6bjlfs7xxs="
     },
     "runtime": {
       "dotnet.6.0.1.ynjylm5yl3.js": "sha256-9PASdETeWhfCtXSYFC6rggJeldu\/lkBddQzLbZU3sZY=",

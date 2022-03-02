@@ -1,0 +1,24 @@
+﻿@page "/CrmCustomer"
+<MudText Typo="Typo.h4" Class=" pt-4 mt-16" Align="Align.Center" Color="Color.Dark">مدیریت تماس</MudText>
+            <MudPaper  Class=" pt-4 mt-16 d-flex align-center justify-center mud-width-full py-8 rounded-lg ">
+
+<MudGrid>
+
+    <MudItem  xs=4>
+
+        <Catalog.Client.Component.CrmCustomer.CrmCustomer/>
+        </MudItem>
+         <MudItem  xs=8 >
+             <MudButtonGroup Class="mt-2" Color="Color.Default" Variant="Variant.Outlined">
+
+    <MudIconButton   Icon="@Icons.Material.Rounded.Add" Color="Color.Primary" Title="Add New Product" />
+     <MudIconButton   Icon="@Icons.Material.Rounded.Edit"  Color="Color.Warning" Title="Edit Product" />
+      <MudIconButton   Icon="@Icons.Material.Rounded.Delete"  Color="Color.Error" Title="Delete Product" />
+</MudButtonGroup>
+    <Catalog.Client.Component.Products.List/>
+        </MudItem>
+        </MudGrid>
+        </MudPaper>
+@code {
+
+}

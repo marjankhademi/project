@@ -1,0 +1,113 @@
+﻿<MudGrid>
+
+
+    <MudItem xs="12" >
+        <MudPaper Class="pa-4  pt-4 mt-8 " style="background-color:#F5F5F5">
+            <MudText Typo="Typo.h5"> فرم دریافت گزارش مشتریان</MudText>
+    <MudForm @ref="form" style="display:-moz-inline-box">
+    
+        <div class=" d-flex align-center justify-center mud-width-full py-8 pa-4 mt-4">
+           <MudItem  xs="6" >
+
+                 <MudSelect T="Calculate"  class="pa-4 mt-4"  @bind-Value="@calculate" ToStringFunc="@converter" Label="طبقه بندی مشتریان" AnchorOrigin="Origin.BottomCenter" Variant="Variant.Outlined" Clearable>
+                <MudSelectItem Value="@(new Calculate() { Name="صنایع"})" />
+                <MudSelectItem Value="@(new Calculate() { Name="الکترونیک و مخابرات"})" />
+                <MudSelectItem Value="@(new Calculate() { Name="الکتریکی"})" />
+                <MudSelectItem Value="@(new Calculate() { Name="اقتصاد و دارایی"})" />
+                </MudSelect>
+
+            </MudItem>
+
+             <MudItem  xs="6" >
+
+               <MudTextField    @bind-Value="TextValue" class="pa-4 mt-4" Label="نام مشتری" Variant="Variant.Outlined"></MudTextField>
+             </MudItem>
+     </div>
+             <MudItem  xs="6" >
+                <MudSelect  class="pa-4 mt-4"  T="string" Label=" استان را انتخاب نمایید" MultiSelection="true" @bind-Value="value" @bind-SelectedValues="options">
+                    @foreach (var state in states2)
+                    {
+                    <MudSelectItem T="string" Value="@state">@state</MudSelectItem>
+                    }
+                 </MudSelect>
+            </MudItem>
+      
+
+
+    </MudForm>
+
+
+
+              <MudCardActions>
+                   <MudButton ButtonType="ButtonType.Submit"  Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">دریافت گزارش </MudButton>
+             </MudCardActions>
+      </MudPaper>
+
+
+
+    </MudItem>
+    
+
+
+
+
+</MudGrid>
+
+
+
+@code {
+    private string value1;
+    MudForm form;
+    public string TextValue { get; set; }
+    private string[] states =
+    {
+        "صنایع", "الکترونیک و مخابرات", " الکتریکی", "اقتصاد و دارایی",
+
+    };
+
+    private async Task<IEnumerable<string>> Search1(string value)
+    {
+
+        await Task.Delay(5);
+
+        if (string.IsNullOrEmpty(value))
+            return states;
+        return states.Where(x => x.Contains(value, StringComparison.InvariantCultureIgnoreCase));
+    }
+
+
+    Calculate calculate = new Calculate { Name = "طبقه بندی مشتریان" };
+
+    public class Calculate
+    {
+        public string Name { get; set; }
+
+        // Note: this is important so the select can compare pizzas
+        public override bool Equals(object o) {
+            var other = o as Calculate;
+            return other?.Name==Name;
+        }
+
+        // Note: this is important so the select can compare pizzas
+        public override int GetHashCode() => Name.GetHashCode();
+    }
+
+    Func<Calculate,string> converter = p => p?.Name;
+
+
+    private string value { get; set; } = "Nothing selected";
+    private IEnumerable<string> options { get; set; } = new HashSet<string>() { "تهران" };
+
+    private string[] states2 =
+          {
+              "تهران", "کرج", " اصفهان", "شیراز",
+
+          };
+
+
+    //public void GetList()
+    //{
+    //   <Catalog.Client.Component.Products.List/>
+    //}
+
+}

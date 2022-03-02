@@ -26,12 +26,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XENoYXJ0XERhc2hib3JkQ2hhcnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Session10/Catalog.Client/Component/CrmCustomer/CrmCustomer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XENybUN1c3RvbWVyXENybUN1c3RvbWVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Session10/Catalog.Client/Component/Crm/CrmHome.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XENybVxDcm1Ib21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Session10/Catalog.Client/Component/Products/List.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XFByb2R1Y3RzXExpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Session10/Catalog.Client/Pages/CRM.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JNLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Session10/Catalog.Client/Pages/CrmCustomer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JtQ3VzdG9tZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Session10/Catalog.Client/Pages/CS.razor]
